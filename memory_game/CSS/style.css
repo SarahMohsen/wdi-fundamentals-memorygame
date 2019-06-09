@@ -1,11 +1,11 @@
 
 h1 {
-font-family: "Raleway", sans-serif;
-font-weight: 400;
-color: #0D2C40;
-letter-spacing: 1px;
-font-size: 45px;
-margin: 0;
+	font-family: "Raleway", sans-serif;
+	font-weight: 400;
+	color: #0D2C40;
+	letter-spacing: 1px;
+	font-size: 45px;
+	margin: 0;
 
 }
 header{
@@ -30,39 +30,39 @@ nav{
 
 a{
 
-margin-right:20px;
-margin-left:20px;
-color: #FFFFFF;
-text-decoration: none;
-border-bottom: 2px solid transparent;
-}
+	  margin-right:20px;
+	  margin-left:20px;
+	  color: #FFFFFF;
+	  text-decoration: none;
+	  border-bottom: 2px solid transparent;
+	}
 a:hover {
-background-color: white;
+	background-color:black;// it was white ,but I chang it .
 }
 
 h2{
-font-family: "RALEWAY";
-color: #0D2C40;
-letter-spacing: 1px;
-font-size: 20px;
-font-weight: 600;
+	font-family: "RALEWAY";
+	color: #0D2C40;
+	letter-spacing: 1px;
+	font-size: 20px;
+	font-weight: 600;
 }
 
 p {
-font-family: "Droid Serif", serif;
-line-height: 26px;
-font-size: 18px;
+	font-family: "Droid Serif", serif;
+	line-height: 26px;
+	font-size: 18px;
 }
 body {
-text-align: center;
-margin: 0 ;
+	text-align: center;
+	margin: 0 ;
 }
 main{
-width: 850px;
-margin-right: auto;
-margin-left: auto;
-margin-bottom: 35px;
-margin-top: 35px;
+	width: 850px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: 35px;
+	margin-top: 35px;
 }
 img{
 	margin-top: 40px;
@@ -88,10 +88,22 @@ footer{
 	float:left;
 }
 .clearfix:after {
-visibility: hidden;
-display: block;
-content: " ";
-clear: both;
-height: 0;
-font-size: 0;
+	visibility: hidden;
+	display: block;
+	content: " ";
+	clear: both;
+	height: 0;
+	font-size: 0;
 }
+
+.rester-game{
+	font-family: "RALEWAY" ;
+	margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 35px;
+    margin-top: 35px;
+    font-size: 14px;
+}
+
+
+
